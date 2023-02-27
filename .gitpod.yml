@@ -4,6 +4,4 @@ tasks:
   - command: git remote set-url origin git@github.com:gitpodcloudlabuser2/gitpodcloudlabuser2-Start.git && sed "s/\r$//" commit-command.sh | bash
 vscode:
  extensions:
-   - redhat.java
-   - vscjava.vscode-java-debug
-   - Revaturepro-non-prod.revature-labs-non-prod
+   - kyntrack.gitpod-tracker-plugin@0.0.61
